@@ -1,1 +1,60 @@
- 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #CFBCDF;
+}
+.Calcontainer{
+  margin-top: 15vh;
+  height: 60vh;
+  width:41vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #897C80;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
+
+.button{
+  height: 8vh;
+  width: 8vh;
+  border-radius:50%;
+  margin-left: 1vh;
+  color: white;
+  background-color: #BA8F95;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border:none;
+
+}
+.symbols{
+  background-color: #CAB6CD;
+}
+
+#text{
+  align-self:first baseline;
+  height:12vh;
+  width:40vh;
+  font-size: 3rem;
+  border-radius: 2rem;
+  border-bottom-left-radius:0;
+  border-bottom-right-radius: 0;
+  background-color: #919098;
+  color: white;
+  padding-left: 1vh;
+}
+
+.button:active{
+  border-radius: 25%;
+}
